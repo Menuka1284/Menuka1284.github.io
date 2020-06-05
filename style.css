@@ -1,0 +1,141 @@
+body
+{
+
+	font-family: sans-serif;
+	color: 3c3939;
+	background-color: #f1f1f1;
+}
+.profile-card
+{
+	width: 800px;
+	height: 2000px;
+	margin: auto;
+background:#fff;
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
+}
+.image-container
+{
+	position: relative;
+
+}
+.social-media-icon-container{
+    height: 200px;
+    margin-top: 50px;
+    margin-right: 16px;
+    position: center;
+}
+.fb{
+    transition: 1s;
+    color: #3b5998;
+    box-shadow: rgb(170, 152, 152) 5px 5px 5px;
+    border-radius: 50%;
+    border: solid 5px #3b5998;
+
+}
+.fb:hover{
+    transition: 1s;
+    color: #3b5998;
+    box-shadow: rgb(170, 152, 152) 0px 0px 0px;
+    border-radius: 50%;
+    border: solid 5px #3b5998;
+}
+.li{
+    transition: 1s;
+    color: #3b5998;
+    box-shadow: rgb(170, 152, 152) 5px 5px 5px;
+    border-radius: 50%;
+    border: solid 5px #3b5998;
+}
+.li:hover{
+    transition: 1s;
+    color: #3b5998;
+    box-shadow: rgb(170, 152, 152) 0px 0px 0px;
+    border-radius: 50%;
+    border: solid 5px #3b5998;
+}
+.github {
+    transition: 1s;
+    color: #F1502F;
+    box-shadow: rgb(170, 152, 152) 5px 5px 5px;
+    border-radius: 50%;
+    border: solid 5px #F1502F;
+}
+.github:hover {
+    transition: 1s;
+    color: #F1502F;
+    box-shadow: rgb(170, 152, 152) 0px 0px 0px;
+    border-radius: 50%;
+    border: solid 5px #F1502F;
+}
+.info{
+	color: 	#32CD32;
+	margin-right: 16px;
+}
+.main-container{
+	padding: 20px;
+
+}
+.sk{
+	color: 	#FFFF00;
+	margin-right: 16px;
+}
+.skill-bar{
+	background-color: #bdc9ea;
+	border-radius: 16px;
+}
+.progress-bar{
+padding: 0.1em 16px;
+border-radius: 16px;
+text-align: center;
+color: #fff;
+background-color: #F1502F;
+
+}
+.prog-bar{
+padding: 0.1em 16px;
+border-radius: 16px;
+text-align: center;
+color: #fff;
+background-color: #FFAE42;
+
+}
+.pro-bar{
+padding: 0.1em 16px;
+border-radius: 16px;
+text-align: center;
+color: #fff;
+background-color: #32CD32;
+
+}
+.pr-bar{
+padding: 0.1em 16px;
+border-radius: 16px;
+text-align: center;
+color: #fff;
+background-color: #FF0000;
+
+}
+.te{
+	color: 		#0000A0;
+	
+}
+.loader {
+    border: 16px solid #8790ad;
+    /* Light grey */
+    border-top: 16px solid #375061;
+    /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    color: #0000A0;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
